@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cart total</title>
+</head>
+<body>
+  <h1>Cart total</h1>
+  <p>Total: <span id="total">(pending)</span></p>
+
+  <script src="/src/format.js"></script>
+  <script>
+    // Deliberately uncaught: this is the fault a real user's browser would hit,
+    // and it's what the reproduction session is here to capture.
+    var items = [{ cents: 500 }, { cents: 1999 }]
+    document.getElementById("total").textContent = renderTotal(items)
+  </script>
+</body>
+</html>

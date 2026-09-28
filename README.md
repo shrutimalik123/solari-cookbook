@@ -55,6 +55,13 @@ One key spans all three, so an example can use more than one at once.
 Bigger programs built on Solari — a CLI or a UI, its own modules, solving a whole
 problem rather than showing one call. See [applications/](applications).
 
+[`applications/retrace`](applications/retrace) was built against a specific
+design document, [Solari Autonomous QA Agent Plan of Action.pdf](<Solari Autonomous QA Agent Plan of Action.pdf>).
+[Retrace - Implementation Report.pdf](<Retrace - Implementation Report.pdf>)
+covers what was actually built, why several phases were scoped down rather
+than stubbed, and where the implementation corrects claims in the plan against
+this cookbook's own documented behavior.
+
 ## Running an example
 
 Each directory is self-contained.

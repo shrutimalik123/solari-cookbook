@@ -1,0 +1,19 @@
+{
+  "name": "solari-retrace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/cli.ts demo",
+    "live": "tsx src/cli.ts live",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@solarisdk/browser": "^0.1.3",
+    "@solarisdk/sdk": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

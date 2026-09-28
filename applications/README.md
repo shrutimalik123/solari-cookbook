@@ -40,3 +40,4 @@ variable it reads and nothing else.
 | Application | Language | What it does |
 | --- | --- | --- |
 | [worldline](worldline) | Python | Snapshot-branch competing plans, verify their artifacts, and replay only the winner |
+| [retrace](retrace) | TypeScript | Reproduce a bug in a recorded browser session, patch and test it in a sandbox, and re-verify the fix from a fresh browser session |
